@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\kiran\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\kiran\.local\share\solana\install\active_release\bin;C:\Users\kiran\AppData\Local\atom\bin;C:\Users\kiran\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kiran\AppData\Roaming\npm;C:\Users\kiran\AppData\Local\Microsoft\WindowsApps;c:\users\kiran\appdata\roaming\python\python39\scripts;c:\users\kiran\.local\bin;C:\adb;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\kiran\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\kiran\AppData\Local\Programs\Python\Python39\;C:\Users\kiran\.local\share\solana\install\active_release\bin;C:\Program Files\Python39\Scripts;C:\Users\kiran\AppData\Local\atom\bin;C:\Users\kiran\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kiran\AppData\Local\Microsoft\WindowsApps;;c:\users\kiran\appdata\roaming\python\python39\scripts;c:\users\kiran\.local\bin;C:\Users\kiran\AppData\Local\Programs\IPFS Desktop\resources\app.asar.unpacked\src\ipfs-on-path\scripts\bin-win;C:\Users\kiran\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.org
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "silverlineswap",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build"
+    },
+    "dependencies": {
+      "@kyvg/vue3-notification": "^2.3.6",
+      "@meforma/vue-toaster": "^1.3.0",
+      "@walletconnect/web3-provider": "^1.8.0",
+      "core-js": "^3.8.3",
+      "node-polyfill-webpack-plugin": "^2.0.1",
+      "vue": "^3.2.13",
+      "vue-class-component": "^8.0.0-0",
+      "vue-router": "^4.0.3",
+      "vuex": "^4.0.0",
+      "web3": "^1.7.5",
+      "web3modal": "^1.9.8"
+    },
+    "devDependencies": {
+      "@types/web3": "^1.2.2",
+      "@vue/cli-plugin-babel": "~5.0.0",
+      "@vue/cli-plugin-router": "~5.0.0",
+      "@vue/cli-plugin-typescript": "~5.0.0",
+      "@vue/cli-plugin-vuex": "~5.0.0",
+      "@vue/cli-service": "~5.0.0",
+      "sass": "^1.32.7",
+      "sass-loader": "^12.0.0",
+      "typescript": "~4.5.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
